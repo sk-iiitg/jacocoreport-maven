@@ -2,16 +2,19 @@ package com.devopshint.StringPalindrome;
 public class App {
 
 	public boolean isPalindrome(String input) {
-
+                 
 		if (input == null) {
 			throw new IllegalArgumentException("input shouldn't be null");
 		}
+		int len=reverselen(input);
+		
 
-		if (input.equals(reverse(input))) {
+		if (input.equals(reverse(input)) && len>0) {
 			return true;
 		} else {
 			return false;
 		}
+		
 	}
 
 	private String reverse_reverse(String input) {
