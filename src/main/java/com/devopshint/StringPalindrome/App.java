@@ -14,6 +14,21 @@ public class App {
 		}
 	}
 
+	private String reverse_reverse(String input) {
+		String rev = "";
+		for (int i = input.length() - 1; i >= 0; i--) {
+			rev = rev + input.charAt(i);
+		}
+		return rev;
+	}
+       private int reverselen(String input) {
+		String rev = "";
+		for (int i = input.length() - 1; i >= 0; i--) {
+			rev = rev + input.charAt(i);
+		}
+		return input.length();
+	}
+
 	private String reverse(String input) {
 		String rev = "";
 		for (int i = input.length() - 1; i >= 0; i--) {
