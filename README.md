@@ -1,1 +1,1 @@
-# jacocoreport-maven-project
+# jacocoreport-maven-project-codecov
