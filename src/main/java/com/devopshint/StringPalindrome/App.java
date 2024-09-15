@@ -13,6 +13,10 @@ public class App {
 			return false;
 		}
 	}
+	private int Length(String input) {
+		
+		return input.length();
+	}
 
 	private String reverse(String input) {
 		String rev = "";
